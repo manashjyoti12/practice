@@ -4,6 +4,7 @@ import './index.css'
 import { RouterProvider, createBrowserRouter } from 'react-router-dom'
 import MemberCart from './pages/MemberCart'
 import Home from './pages/Home'
+import Accordion from './Accordion'
 
 
 const router = createBrowserRouter([
@@ -15,6 +16,10 @@ const router = createBrowserRouter([
   {
     path: "/memberCart",
     element: <MemberCart />
+  },
+  {
+    path: "/accordion",
+    element: <Accordion />
   }
 ])
 
