@@ -11,6 +11,9 @@ return (
                 <Link to={"accordion"} >
                     <div className="bg-orange-600 p-2 rounded-lg">Accordion</div>
                 </Link>
+                <Link to="https://ecommerce-admin-delta-one.vercel.app/">
+                    <div className="bg-orange-600 p-2 rounded-lg " >Ecommerce Admin Panel</div>
+                </Link>
             </div>
     </div>
 )}
