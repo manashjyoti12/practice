@@ -5,6 +5,8 @@ import { RouterProvider, createBrowserRouter } from 'react-router-dom'
 import MemberCart from './pages/MemberCart'
 import Home from './pages/Home'
 import Accordion from './Accordion'
+import SignIn from './pages/auth/SignIn'
+import SignUp from './pages/auth/SignUp'
 
 
 const router = createBrowserRouter([
@@ -20,6 +22,14 @@ const router = createBrowserRouter([
   {
     path: "/accordion",
     element: <Accordion />
+  },
+  {
+    path: "/sign-in",
+    element: <SignIn />
+  },
+  {
+    path: "/sign-up",
+    element: <SignUp />
   }
 ])
 
