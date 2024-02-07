@@ -6,19 +6,19 @@ return (
         <h1 className="text-4xl">Daily Practice</h1>
             <div className="mt-10 flex gap-10">
                 <Link to={"memberCart"} >
-                    <div className="bg-orange-600 p-2 rounded-lg">Member Cart</div>
+                    <div className="bg-orange-600 p-2 rounded-xl">Member Cart</div>
                 </Link>
                 <Link to={"accordion"} >
-                    <div className="bg-orange-600 p-2 rounded-lg">Accordion</div>
+                    <div className="bg-orange-600 p-2 rounded-xl">Accordion</div>
                 </Link>
                 <Link to="https://ecommerce-admin-delta-one.vercel.app/">
-                    <div className="bg-orange-600 p-2 rounded-lg " >Ecommerce Admin Panel</div>
+                    <div className="bg-orange-600 p-2 rounded-xl " >Ecommerce Admin Panel</div>
                 </Link>
                 <Link to={"Sign-in"}>
-                    <div className="bg-orange-600 p-2 rounded-lg " >SignIn</div>
+                    <div className="bg-orange-600 p-2 rounded-xl " >SignIn</div>
                 </Link>
                 <Link to={"Sign-up"}>
-                    <div className="bg-orange-600 p-2 rounded-lg " >SignUp</div>
+                    <div className="bg-orange-600 p-2 rounded-xl " >SignUp</div>
                 </Link>
             </div>
     </div>
