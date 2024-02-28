@@ -7,6 +7,7 @@ import Home from './pages/Home'
 import Accordion from './Accordion'
 import SignIn from './pages/auth/SignIn'
 import SignUp from './pages/auth/SignUp'
+import { ComingSoon } from './pages/ComingSoon'
 
 
 const router = createBrowserRouter([
@@ -30,6 +31,10 @@ const router = createBrowserRouter([
   {
     path: "/sign-up",
     element: <SignUp />
+  },
+  {
+    path: "/comingsoon",
+    element: <ComingSoon />
   }
 ])
 

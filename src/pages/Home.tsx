@@ -20,6 +20,9 @@ return (
                 <Link to={"Sign-up"}>
                     <div className="bg-orange-600 p-2 rounded-xl " >SignUp</div>
                 </Link>
+                <Link to={"comingsoon"}>
+                    <div className="bg-orange-600 p-2 rounded-xl " >Coming Soon</div>
+                </Link>
             </div>
     </div>
 )}
