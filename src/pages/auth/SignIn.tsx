@@ -20,7 +20,7 @@ const SignIn = () => {
 
     const signIn = async () => {
         setLoading(true)
-       const {data,error} = await supabase.auth.signInWithPassword({
+       const {data} = await supabase.auth.signInWithPassword({
             email: "pikanol725@cubene.com",
            password: 'manash123guyg456',
            
